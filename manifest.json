@@ -1,0 +1,14 @@
+{
+  "name":"More Bingosync Markers",
+  "description":"Made by Mini",
+  "version":"0.1.0",
+  "manifest_version":2,
+  "content_scripts": [
+      {
+          "matches": ["https://bingosync.com/*"],
+          "js": ["jquery-3.6.0.min.js", "board.js"],
+          "css": ["more.css"],
+          "run_at": "document_end"
+      }
+    ]
+}
